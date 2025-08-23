@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Rock Paper Scissors</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="icon" href="icon.ico" type="image/x-icon">
+        <script src="script.js"></script>
+        <meta charset="UTF-8">
+    </head>
+    <body onload="updateSlider()">
+        <center>
+            <h1>Welcome to the rock paper scissors game!</h1>
+            <div class="nicecontainer">
+                <h2>Choose your game mode:</h2>
+                <br>
+                <button onclick="gotoaigame()">Versus AI</button>
+                <input oninput="updateSlider()" id="airoundslider" type="range" min="1" max="10" value="5">
+                <label for="airoundslider">Match Length: <span id="aimatchLengthValue">5</span></label>
+                <br>
+                <button disabled>Versus Human - Work In Progress</button>
+                <br>more will be come soon
+                <div class="authortext">Made by Alperosci 😎</div>
+                <div class="socials">
+                <a href="https://github.com/Alperosci"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github"></a>
+                </div>
+            </div>
+        </center>
+    </body>
+</html>
